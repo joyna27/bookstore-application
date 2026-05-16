@@ -1,7 +1,7 @@
 services:
   - type: web
     name: bookstore-backend
-    env: java
     rootDir: backend/demo
+    env: docker
     buildCommand: "./mvnw clean install"
     startCommand: "java -jar target/demo-0.0.1-SNAPSHOT.jar"
